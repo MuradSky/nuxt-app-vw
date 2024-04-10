@@ -1,11 +1,9 @@
-# Nuxt 3 Minimal Starter
+## Дополнительные модули
+Для работы с БД mongodb применяется библиотека [mongoose](https://www.npmjs.com/package/mongoose) на стороне серверa
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Установка пакетов
 
-## Setup
-
-Make sure to install the dependencies:
-
+Обязательно установите зависимости:
 ```bash
 # npm
 npm install
@@ -20,9 +18,9 @@ yarn install
 bun install
 ```
 
-## Development Server
+## Локальной запуск
 
-Start the development server on `http://localhost:3000`:
+Запустите сервер разработки на `http://localhost:3000`:
 
 ```bash
 # npm
@@ -40,7 +38,7 @@ bun run dev
 
 ## Production
 
-Build the application for production:
+Создайте приложение для Production версии
 
 ```bash
 # npm
@@ -56,7 +54,7 @@ yarn build
 bun run build
 ```
 
-Locally preview production build:
+Локальная предварительная версия рабочей сборки:
 
 ```bash
 # npm
@@ -72,4 +70,4 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Дополнительную информацию можно найти в [документации по развертыванию](https://nuxt.com/docs/getting-started/deployment).
