@@ -6,6 +6,8 @@
     const updateView = (state: string)=> {
         view.value = state
     } 
+
+    console.log(data)
 </script>
 
 <template>

@@ -74,6 +74,6 @@
 
     .checkbox span {
         font-size: 16px;
-        margin-left: 5px;
+        margin-left: 10px;
     }
 </style>

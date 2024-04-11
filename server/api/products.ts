@@ -1,7 +1,6 @@
-import { Products } from "~~/server/models/products.model"
+import products from "~~/server/db/data.json"
 
 export default defineEventHandler(async (event) => {
-    const products = await Products.find();
     return {
         products
     }

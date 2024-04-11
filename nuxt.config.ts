@@ -7,8 +7,5 @@ export default defineNuxtConfig({
     },
     image: {
         domains: ['assets.volkswagen.com']
-    },
-    nitro: {
-        plugins: ["~/server/plugins/mongodb.ts"],
-    },
+    }
 })
