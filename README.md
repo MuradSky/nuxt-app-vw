@@ -1,5 +1,3 @@
-## Дополнительные модули
-Для работы с БД mongodb применяется библиотека [mongoose](https://www.npmjs.com/package/mongoose) на стороне серверa
 ## Установка пакетов
 
 #### !Устанавливать по команде [yarn](https://yarnpkg.com/)
